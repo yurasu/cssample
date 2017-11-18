@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>MyEntry</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/validate.js"></script>
+</head>
+<body>
+	<form id="myform" method="post" action="./">
+		<p>
+		<div id='message_id'></div>
+		<label>Husehoid ID：<input type="text" name="id" size="40"></label>
+		</p>
+		<fieldset>
+			<div id='message_age'></div>
+
+			<legend>AGE</legend>
+			<p>
+				<label>AGE：<input type="text" name="age" size="40"></label>
+			</p>
+		</fieldset>
+
+		<fieldset>
+			<div id='message_sex'></div>
+			<legend>SEX</legend>
+			<p>
+				<label><input type="radio" name="sex" value="1" checked>Male</label>
+			</p>
+			<p>
+				<label><input type="radio" name="sex" value="2">Female</label>
+			</p>
+		</fieldset>
+		<fieldset>
+			<div id='message_married'></div>
+
+			<legend>Marital Status</legend>
+			<p>
+				<label><input type="radio" name="married" value="1" checked>Married</label>
+			</p>
+			<p>
+				<label><input type="radio" name="married" value="2">Not Married</label>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>HOUSEHOLD INFORMATION</legend>
+
+			<fieldset>
+				<div id='message_housing'></div>
+
+				<legend>Type Housing</legend>
+				<p>
+					<label><input type="radio" name="housing" value="1" checked>Single
+						family</label>
+				</p>
+				<p>
+					<label><input type="radio" name="housing" value="2">Multi-family</label>
+				</p>
+				<p>
+					<label><input type="radio" name="housing" value="3">Homeless</label>
+				</p>
+			</fieldset>
+
+			<fieldset>
+				<div id='message_roof'></div>
+
+				<legend>Type Roof</legend>
+				<p>
+					<label><input type="radio" name="roof" value="1" checked>Wood</label>
+				</p>
+				<p>
+					<label><input type="radio" name="roof" value="2">Metal</label>
+				</p>
+				<p>
+					<label><input type="radio" name="roof" value="3">Other</label>
+				</p>
+			</fieldset>
+
+		</fieldset>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>

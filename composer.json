@@ -1,0 +1,10 @@
+{
+	"repositories":[{"type":"composer", "url":"https://packagist.org"}, {"packagist":false}],
+	"require":{
+		"slim/slim": "^3.0",
+		"slim/twig-view": "^2.3"
+	},
+	"config":{
+		"bin-dir":"bin/"
+	}
+}
